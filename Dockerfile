@@ -143,3 +143,7 @@ ENTRYPOINT ["/usr/local/bin/entrypoint"]
 
 # Expose the port to the Docker engine.
 EXPOSE 8080
+
+# Create the on build actions for this container.
+ONBUILD ADD . /app/
+ONBUILD RUN /bin/chown -R app:app /app
