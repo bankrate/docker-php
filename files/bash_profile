@@ -1,6 +1,0 @@
-#!/bin/bash
-
-# Source the local .bashrc file in $HOME.
-if [ -f ~/.bashrc ]; then
-	. ~/.bashrc
-fi

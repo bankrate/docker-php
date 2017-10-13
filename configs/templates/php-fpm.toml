@@ -1,3 +1,0 @@
-[template]
-src   = "php-fpm.tmpl"
-dest  = "/etc/php-fpm-7.1.conf"

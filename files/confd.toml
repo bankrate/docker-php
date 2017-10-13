@@ -1,4 +1,0 @@
-backend = "env"
-confdir = "/etc/confd"
-log-level = "info"
-noop = false
